@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/hikerswatch4edit"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiker's watch"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/hikersWatchTitle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:text="Latitude : 12.23"
+        android:layout_below="@id/hikersWatchTitle"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="serif"
+        android:id="@+id/latitudeTextView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:text="Latitude : 12.23"
+        android:layout_below="@id/latitudeTextView"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="serif"
+        android:id="@+id/longitudeTextView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:text="Accuracy : 12.23"
+        android:layout_below="@id/longitudeTextView"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="serif"
+        android:id="@+id/accuracyTextView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:text="Altitude : 12.23"
+        android:layout_below="@id/accuracyTextView"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="serif"
+        android:id="@+id/altitudeTextView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:text="Address : \n 123 Fake Street \nUSA"
+        android:layout_below="@id/altitudeTextView"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="serif"
+        android:id="@+id/addressTextView"/>
+
+
+</RelativeLayout>
